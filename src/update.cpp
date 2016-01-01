@@ -78,7 +78,7 @@ bool inflateGzip ( const std::string& compressedBytes, std::string& uncompressed
   return true;
 }
 
-void update(OSType type)
+void update (OSType type)
 {
 	string text = "";
 	for (int j = 0; j < versions.size (); j++)

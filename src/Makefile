@@ -1,5 +1,5 @@
 cc=g++
-args=-O2
+args=-O2 -std=c++11
 output=parcel
 includes=-lcurl -lz
 
@@ -8,4 +8,4 @@ make:
 	cp $(output) ../
 
 clean:
-	rm $(output)
+	rm -f $(output)

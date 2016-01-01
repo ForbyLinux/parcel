@@ -46,5 +46,5 @@ extern vector<Parcel> parcels;
 vector<string> parseDependencies (string dependencies);
 void updateParcelData (vector<Parcel> parcelList=parcels);
 void optimize (vector<Parcel> list);
-string toText (vector<Parcel>)
+string toText (vector<Parcel>);
 #endif /* PARCEL_H_ */
